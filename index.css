@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('photo/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+center {
+    text-align: center;
+    border-radius: 8px;
+    background-color: transparent; /* Прозрачный фон */
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: yellow;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%; /* Увеличенная ширина */
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 11px 0;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4285f4;
+    color: #ffffff;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #4285f4;
+}
+
+button {
+    background-color: transparent; /* Прозрачный фон */
+    border: none;
+    color: yellowgreen; /* Черный текст */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+}
+
+button:hover {
+    background-color: #008CBA; /* Синий фон при наведении */
+    color: white; /* Белый текст при наведении */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
